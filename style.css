@@ -6,6 +6,9 @@
     font-family: "Poppins";
     src: url("Poppins-Bold.ttf");
   }
+  @font-face {
+    font-family: 'Roboto', sans-serif;
+  }
   body {
     scroll-behavior: smooth;
     background-color: #151d21;
@@ -58,11 +61,11 @@
     margin-right: 30px;
     cursor: pointer;
   }
-#main4 {
+  #main4 {
     position: relative;
     top: 4vh;
     ;
-    font-family: Poppins;
+    font-family: Roboto;
     font-family: 16px;
     background-color: transparent;
     border-style: none;
