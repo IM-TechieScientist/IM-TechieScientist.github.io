@@ -58,6 +58,20 @@
     margin-right: 30px;
     cursor: pointer;
   }
+#main4 {
+    position: relative;
+    top: 4vh;
+    ;
+    font-family: Poppins;
+    font-family: 16px;
+    background-color: transparent;
+    border-style: none;
+    font-size: 40px;
+    color: rgba(255, 255, 240, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+  }
   #he {
     top: 9.6vh;
     position: relative;
