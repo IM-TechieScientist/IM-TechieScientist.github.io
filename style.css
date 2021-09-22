@@ -9,13 +9,6 @@
   @font-face {
     font-family: 'Roboto', sans-serif;
   }
-html {
-  overflow: hidden;
-}
-* {
-  margin: 0;
-  transition: 0.25s ease;
-}  
 body {
     scroll-behavior: smooth;
     background-color: #151d21;
@@ -30,7 +23,7 @@ body {
   }
   * {
     margin: 0;
-    transition: 0.25s ease;
+    transition: 1s ease;
     align-self: center;
   }
   .all {
@@ -45,7 +38,7 @@ body {
     font-size: 70px;
     color: ivory;
     text-shadow: 0 0 10px rgb(95, 95, 95);
-    transition: 1.5s ease;  
+    transition: 3s ease;  
   }
   #main2 {
     position: relative;
@@ -54,7 +47,7 @@ body {
     font-family: Poppins;
     font-family: 16px;
     text-shadow: 0 0 5px rgb(95, 95, 95);
-    transition: 1s ease;  
+    transition: 3s ease;  
   }
   #main3 {
     position: relative;
@@ -69,7 +62,7 @@ body {
     margin-left: 30px;
     margin-right: 30px;
     cursor: pointer;
-    transition: 1s ease;  
+    transition: 3s ease;  
   }
   #main4 {
     position: relative;
@@ -84,7 +77,7 @@ body {
     margin-left: 30px;
     margin-right: 30px;
     cursor: pointer;
-    transition: 1s ease;  
+    transition: 3s ease;  
     
   }
   #he {
@@ -97,11 +90,11 @@ body {
   }
   #utube:hover {
     color: red;
-    transition: 1s ease;  
+    transition: 3s ease;  
   }
   #git:hover {
     color: black;
-    transition: 1s ease;  
+    transition: 3s ease;  
   }
   #cod:hover {
     color: rgb(33, 169, 253);
