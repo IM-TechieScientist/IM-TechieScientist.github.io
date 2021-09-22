@@ -22,7 +22,7 @@
         color: lightsalmon;
     }
 </style>
-<body style="background-size: cover; background-image: url(wall.jpg);background-repeat: no-repeat;margin: 0;overflow: hidden;align-content: center;align-self: center;">
+<body onload="ha()" style="background-size: cover; background-image: url(wall.jpg);background-repeat: no-repeat;margin: 0;overflow: hidden;align-content: center;align-self: center;">
     
         <div class="all">
     <div style="width:100vw;height:100vh;margin:0;background-color:rgba(0, 0, 0, 0.322);">
@@ -42,6 +42,12 @@
 </div>
 <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 <script>
+    function ha() {
+        document.getElementById("").style.top = "0";
+        document.getElementById("main3").style.bottom = "0";
+        document.getElementById("main").style.left = "0vh";
+        document.getElementById("main2").style.fontSize = "18px";
+    }
     function utube() {
         window.open("https://www.youtube.com/TheTechieScientist");
     }
