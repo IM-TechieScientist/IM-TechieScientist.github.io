@@ -9,7 +9,14 @@
   @font-face {
     font-family: 'Roboto', sans-serif;
   }
-  body {
+html {
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  transition: 0.25s ease;
+}  
+body {
     scroll-behavior: smooth;
     background-color: #151d21;
     background-image: url(wall.jpg);
