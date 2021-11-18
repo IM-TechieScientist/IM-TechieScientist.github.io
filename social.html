@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        />
+
+</head>
+<style>
+    html {
+        overflow-y: hidden;
+    }
+</style>
+<body onload="load()">
+    <header id="header">
+        <nav>
+            <ul id="bar">
+                <li><a id="aa" class="now" href="index.html">Home</a></li>
+                <li><a id="aa" class="now" href="social.html">Socials</a></li>
+                <li><a id="aa" href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="section container">
+        <div id="tex" style="position: relative;top: 10vh;color: ivory;" class="title is-2 has-text-centered">My Socials</div><br><div style="position: relative;top: 10vh;" id="buttons tex2" class="has-text-centered">
+            <button class="button is-link">
+                <span class="icon">
+                  <i class="fab fa-discord"></i>
+                </span>
+                <span>Santosh#6525</span>
+              </button>
+        </div>
+        <center><button id="main3"><ion-icon name="logo-youtube" onclick="utube()" id="utube" ></ion-icon>    <ion-icon name="logo-github" onclick="git()" id="git" ></ion-icon>  <ion-icon name="logo-twitter" onclick="twit()" id="twit" ></ion-icon>  </button></center>
+
+    </div>
+<script src="load.js"></script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<script>
+    function ha() {
+        document.getElementById("main3").style.bottom = "0";
+        document.getElementById("main").style.left = "0vh";
+        document.getElementById("main2").style.fontSize = "18px";
+    }
+    function utube() {
+        window.open("https://www.youtube.com/TheTechieScientist");
+    }
+    function twit() {
+        window.open("https://twitter.com/IM_SantoshBala");
+    }
+    function git() {
+        window.open("https://github.com/IM-TechieScientist");
+    }
+</script>
+</body>
+</html>
