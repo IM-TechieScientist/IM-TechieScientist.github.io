@@ -1,40 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <script async defer data-website-id="087a2868-d4a3-449e-a6ea-6b3a0ee71379" src="https://umami.albony.xyz/umami.js"></script>
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Santosh's Website</title>
-        <meta property="og:site_name" content="Santosh's Website">
-    <meta property="og:title" content="Santosh's Website">
-    <meta property="og:image" content="https://cdn.discordapp.com/avatars/763968923779072042/a_4bcb6056fda07d3aa3aff3be8d4b0baf.gif">
-    <meta property="og:description" content="Hello World! My name is Santosh and you have reached my website">
-    <meta name="theme-color" content="#deb887">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<style>
-    html {
-        overflow-y: hidden;
-    }
-</style>
-<body onload="load()">
-    <header id="header">
+<body>
+    <header>
         <nav>
-            <ul id="bar">
-                <li><a id="aa" class="now" href="index.html">Home</a></li>
-                <li><a id="aa" class="now" href="social.html">Socials</a></li>
-                <li><a id="aa" href="about.html">About</a></li>
-                <li><a id="aa" href="https://github.com/IM-TechieScientist/IM-TechieScientist.github.io">Source code</a></li>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <div class="section container">
-        <div id="tex" style="position: relative;top: 10vh;color: ivory;" class="title is-2 has-text-centered">Santosh</div>
-        <div id="tex2" style="position: relative;top: 14vh;color: ivory;" class="subtitle is-4 has-text-centered">Space and Tech enthusiast , Developer , Discord moderator and a huge Marvel fan.</div>
-        <div id="tex3" style="position: relative;top: 14vh;color: ivory;" class="subtitle is-4 has-text-centered"><a href="about.html"><button id="b00b">More About Me</button></a></div>
-    </div>
-<script src="load.js"></script>
+    
+    <section id="home">
+        <div class="intro">
+            <h1>Santosh Bala</h1>
+            <p>Hello there! You've reached my Website.</p>
+        </div>
+        
+    </section>
+
+    <section id="about">
+        <div class="content">
+            <h1>About Me</h1>
+            <p>I'm a Tech enthusiast with a passion for coding. I like building stuff for fun and I love to debug code.
+                <br>
+                Currently, I am exploring the various domains of Computer Science. I also enjoy geeking out about Rockets and Spacecraft.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="content">
+            <h1>Projects</h1>
+            <div class="project-list">
+                <div class="project-item">
+                    <h2>Meowsic <a href="https://github.com/IM-TechieScientist/meowsic"><ion-icon name="logo-github" size="medium"></ion-icon></a></h2>
+                    <p>A Feature-Rich Music Streaming App built in Python.
+                        <br>
+                    </p>
+                    
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h1>Contact</h1>
+            <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+            <p>
+                <a href="https://www.linkedin.com/in/santosh-bala-n/"><ion-icon name="logo-linkedin" size="large" color="black"></ion-icon></a>
+                <a href="https://github.com/IM-TechieScientist"><ion-icon name="logo-github" size="large"></ion-icon></a>
+            </p>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
